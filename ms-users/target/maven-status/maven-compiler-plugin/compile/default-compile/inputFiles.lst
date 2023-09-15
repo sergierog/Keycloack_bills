@@ -1,0 +1,12 @@
+/Users/mac/Downloads/RODRIGUEZ-SERGIO-PARCIAL1-EB2/ms-users/src/main/java/com/example/msusers/configuration/KeycloakClientConfiguration.java
+/Users/mac/Downloads/RODRIGUEZ-SERGIO-PARCIAL1-EB2/ms-users/src/main/java/com/example/msusers/repository/BillRepository.java
+/Users/mac/Downloads/RODRIGUEZ-SERGIO-PARCIAL1-EB2/ms-users/src/main/java/com/example/msusers/controller/UserController.java
+/Users/mac/Downloads/RODRIGUEZ-SERGIO-PARCIAL1-EB2/ms-users/src/main/java/com/example/msusers/configuration/Feign/FeignInterceptor.java
+/Users/mac/Downloads/RODRIGUEZ-SERGIO-PARCIAL1-EB2/ms-users/src/main/java/com/example/msusers/service/UserService.java
+/Users/mac/Downloads/RODRIGUEZ-SERGIO-PARCIAL1-EB2/ms-users/src/main/java/com/example/msusers/domain/Bill.java
+/Users/mac/Downloads/RODRIGUEZ-SERGIO-PARCIAL1-EB2/ms-users/src/main/java/com/example/msusers/repository/FeignBillRepository.java
+/Users/mac/Downloads/RODRIGUEZ-SERGIO-PARCIAL1-EB2/ms-users/src/main/java/com/example/msusers/repository/UserRepository.java
+/Users/mac/Downloads/RODRIGUEZ-SERGIO-PARCIAL1-EB2/ms-users/src/main/java/com/example/msusers/security/KeyCloakJwtAuthenticationConverter.java
+/Users/mac/Downloads/RODRIGUEZ-SERGIO-PARCIAL1-EB2/ms-users/src/main/java/com/example/msusers/security/OAuth2ResourceServerSecurityConfiguration.java
+/Users/mac/Downloads/RODRIGUEZ-SERGIO-PARCIAL1-EB2/ms-users/src/main/java/com/example/msusers/MsUsersApplication.java
+/Users/mac/Downloads/RODRIGUEZ-SERGIO-PARCIAL1-EB2/ms-users/src/main/java/com/example/msusers/domain/User.java

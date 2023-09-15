@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: ms-users
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/sergio-rodriguez
+
+eureka:
+  instance:
+    hostname: localhost
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+server:
+  port: ${PORT:0}
+
+ms-users:
+  keycloak:
+    serverUrl: http://localhost:8080
+    realm: sergio-rodriguez
+    clientId: ms-users-client
+    clientSecret: UJY5le0Wy8fLXmoHxteHKinqw27Vgx0f

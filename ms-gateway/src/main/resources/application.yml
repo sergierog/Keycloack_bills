@@ -25,16 +25,22 @@ spring:
             - Path=/api/v1/**
           filters:
             - StripPrefix=2
+        - id: ms-users
+          uri: lb://ms-users
+          predicates:
+            - Path=/api/v1/users/**
+          filters:
+            - StripPrefix=2
   security:
     oauth2:
       client:
         provider:
-          keycloak-test:
+          keycloak:
             issuer-uri: http://localhost:8080/realms/sergio-rodriguez
         registration:
-          keycloak-test:
+          keycloak:
             client-id: ms-gateway-client
-            client-secret: pZokLAUCOXVl2QmBM7vSV3j4bQ3hlqBw
+            client-secret: biQZ1IpjLssE401PPkYpMneR9As0f7oL
             scope:
               - openid
             authorization-grant-type: authorization_code
